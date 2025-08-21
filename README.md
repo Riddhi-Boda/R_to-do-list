@@ -27,7 +27,7 @@ It helps users manage daily tasks with features like adding, editing, deleting, 
 ```bash
 git clone https://github.com/Riddhi-Boda/to-do-list-app
 
-## 🌐 Live Demo
+# 🌐 Live Demo
 [View Calculator Live]
 👉 https://riddhi-boda.github.io/R_to-do-list/
 
