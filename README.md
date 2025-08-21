@@ -1,9 +1,10 @@
-📝 Riddhi's To-Do List App  
+# 📝 Riddhi's To-Do List App  
+
 This is a simple and responsive To-Do List web app built using **HTML**, **CSS**, and **JavaScript** as part of a front-end web development internship project with Unified Mentor.
 
 It helps users manage daily tasks with features like adding, editing, deleting, marking as completed, and saving tasks in local storage so they don't disappear on refresh.
 
-📌 Features  
+## 📌 Features  
 
 ✅ Add New Tasks  
 ✏️ Edit Existing Tasks  
@@ -15,18 +16,17 @@ It helps users manage daily tasks with features like adding, editing, deleting, 
 ⏎ Press "Enter" to Add Task  
 ✨ Smooth Hover Effects and Button Animations
 
-🛠️ Technologies Used  
+## 🛠️ Technologies Used  
     HTML5 – Structure  
     CSS3 – Styling and Responsive Design  
     JavaScript (ES6) – Logic and Functionality  
     Local Storage API – Persistent Data Storage
 
-💻 How to Run the Project  
+## 💻 How to Run the Project  
 1. Clone or download this repository:  
 ```bash
 git clone https://github.com/Riddhi-Boda/to-do-list-app
 
-
-🌐 Live Demo
+## 🌐 Live Demo
 [View To Do List Live] 👉 https://riddhi-boda.github.io/R_to-do-list/
 
