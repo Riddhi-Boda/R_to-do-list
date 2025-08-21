@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(120deg, #fceabb, #f8b500);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.01);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input-section input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ffa500;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.input-section input:focus {
+    border-color: #ff7f00;
+    background-color: #fffaf0;
+}
+
+.input-section button {
+    padding: 12px 24px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-section button:hover {
+    background-color: #ff7f00;
+    transform: scale(1.05);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #f9f9f9;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li span {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.task-actions button {
+    margin-left: 5px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.task-actions .edit {
+    background-color: #00bcd4;
+    color: white;
+}
+
+.task-actions .edit:hover {
+    background-color: #0097a7;
+    transform: scale(1.05);
+}
+
+.task-actions .delete {
+    background-color: #f44336;
+    color: white;
+}
+
+.task-actions .delete:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+    .input-section {
+        flex-direction: column;
+    }
+
+    .input-section button {
+        width: 100%;
+    }
+}
